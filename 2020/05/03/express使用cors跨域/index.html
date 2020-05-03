@@ -8,15 +8,15 @@
   <link rel="dns-prefetch" href="https://Lyin-y.github.io">
   <title>express使用cors跨域 | Lyin Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="什么是corsCORS是一个W3C标准，全称是”跨域资源共享”（Cross-origin resource sharing）。它允许浏览器向跨源服务器，发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制。只要服务器实现了CORS接口，就可以跨源通信。 CORS有两种请求，简单请求和非简单请求。 同源跨域就等于从百度访问谷歌的资源，URL由协议、域名、端口和路径组成，如果两个">
+  <meta name="description" content="什么是corsCORS是一个W3C标准，全称是”跨域资源共享”（Cross-origin resource sharing）。它允许浏览器向跨源服务器，发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制。只要服务器实现了CORS接口，就可以跨源通信。CORS有两种请求，简单请求和非简单请求。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="express使用cors跨域">
 <meta property="og:url" content="https://lyin-y.github.io/2020/05/03/express%E4%BD%BF%E7%94%A8cors%E8%B7%A8%E5%9F%9F/index.html">
 <meta property="og:site_name" content="Lyin Blog">
-<meta property="og:description" content="什么是corsCORS是一个W3C标准，全称是”跨域资源共享”（Cross-origin resource sharing）。它允许浏览器向跨源服务器，发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制。只要服务器实现了CORS接口，就可以跨源通信。 CORS有两种请求，简单请求和非简单请求。 同源跨域就等于从百度访问谷歌的资源，URL由协议、域名、端口和路径组成，如果两个">
+<meta property="og:description" content="什么是corsCORS是一个W3C标准，全称是”跨域资源共享”（Cross-origin resource sharing）。它允许浏览器向跨源服务器，发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制。只要服务器实现了CORS接口，就可以跨源通信。CORS有两种请求，简单请求和非简单请求。">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-05-03T05:32:16.000Z">
-<meta property="article:modified_time" content="2020-05-03T05:47:50.530Z">
+<meta property="article:modified_time" content="2020-05-03T06:44:24.041Z">
 <meta property="article:author" content="Lyin">
 <meta property="article:tag" content="express">
 <meta property="article:tag" content="cors">
@@ -179,8 +179,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="什么是cors"><a href="#什么是cors" class="headerlink" title="什么是cors"></a>什么是cors</h2><p>CORS是一个W3C标准，全称是”跨域资源共享”（Cross-origin resource sharing）。它允许浏览器向跨源服务器，发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制。只要服务器实现了CORS接口，就可以跨源通信。</p>
-<p>CORS有两种请求，简单请求和非简单请求。</p>
+        <h2 id="什么是cors"><a href="#什么是cors" class="headerlink" title="什么是cors"></a>什么是cors</h2><p>CORS是一个W3C标准，全称是”跨域资源共享”（Cross-origin resource sharing）。它允许浏览器向跨源服务器，发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制。只要服务器实现了CORS接口，就可以跨源通信。CORS有两种请求，简单请求和非简单请求。</p>
+<a id="more"></a>
+
 <h2 id="同源"><a href="#同源" class="headerlink" title="同源"></a>同源</h2><p>跨域就等于从百度访问谷歌的资源，URL由协议、域名、端口和路径组成，如果两个URL的协议、域名和端口相同，则表示他们同源。相反，只要<code>协议</code>，<code>域名</code>，<code>端口</code>有任何一个的不同，就被当作是跨域。<br>浏览器采用同源策略，禁止页面加载或执行与自身来源不同的域的任何脚本。、</p>
 <h2 id="在express中使用"><a href="#在express中使用" class="headerlink" title="在express中使用"></a>在express中使用</h2><p>1.你只需要在express的命令行中安装cors</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install cors</span><br></pre></td></tr></table></figure>
@@ -331,9 +332,18 @@
   
 <nav id="article-nav">
   
+    <a href="/2020/05/03/Github%E4%B8%8A%E4%BC%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E9%A1%B9%E7%9B%AE/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Github上传自己的项目
+        
+      </div>
+    </a>
   
-    <a href="/2020/05/02/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">个人博客</div>
+  
+    <a href="/2020/05/02/%E7%AE%80%E5%8D%95%E7%9A%84%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%EF%BC%88%E4%B8%80%EF%BC%89/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">简单的后台管理系统（一）</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -492,11 +502,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Vue-cli</a>
+                <a href="javascript:void(0)" class="js-tag color2">Github</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Element-UI</a>
+                <a href="javascript:void(0)" class="js-tag color4">Git</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -505,6 +515,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">cors</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Vue-cli</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Element-UI</a>
               </li>
             
             <div class="clearfix"></div>

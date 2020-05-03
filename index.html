@@ -157,6 +157,94 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Github上传自己的项目" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/05/03/Github%E4%B8%8A%E4%BC%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E9%A1%B9%E7%9B%AE/">Github上传自己的项目</a>
+    </h1>
+  
+
+        
+        <a href="/2020/05/03/Github%E4%B8%8A%E4%BC%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E9%A1%B9%E7%9B%AE/" class="archive-article-date">
+  	<time datetime="2020-05-03T06:58:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-03</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>我自己电脑上已经装好Git,并且已经注册好Github</p>
+<h3 id="在Github创建一个仓库el-admin"><a href="#在Github创建一个仓库el-admin" class="headerlink" title="在Github创建一个仓库el-admin"></a>在Github创建一个仓库el-admin</h3><p><img src="https://img-blog.csdnimg.cn/20200503153820213.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDE1MTk3NA==,size_16,color_FFFFFF,t_70" alt="alt"></p>
+<p>创建完成之后，跳转到上面的页面，红框中的网址要记住，在后面上传代码的时候需要使用</p>
+        
+          <a class="article-more-a" href="/2020/05/03/Github%E4%B8%8A%E4%BC%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E9%A1%B9%E7%9B%AE/#more">more >></a>
+        
+      
+       <!-- 添加版权声明 -->
+    
+
+  <div class="declare" hidden="hidden"></div>
+
+      <!-- 添加版权声明 -->
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Github</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Git</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/05/03/Github%E4%B8%8A%E4%BC%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E9%A1%B9%E7%9B%AE/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-express使用cors跨域" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -177,18 +265,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="什么是cors"><a href="#什么是cors" class="headerlink" title="什么是cors"></a>什么是cors</h2><p>CORS是一个W3C标准，全称是”跨域资源共享”（Cross-origin resource sharing）。它允许浏览器向跨源服务器，发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制。只要服务器实现了CORS接口，就可以跨源通信。</p>
-<p>CORS有两种请求，简单请求和非简单请求。</p>
-<h2 id="同源"><a href="#同源" class="headerlink" title="同源"></a>同源</h2><p>跨域就等于从百度访问谷歌的资源，URL由协议、域名、端口和路径组成，如果两个URL的协议、域名和端口相同，则表示他们同源。相反，只要<code>协议</code>，<code>域名</code>，<code>端口</code>有任何一个的不同，就被当作是跨域。<br>浏览器采用同源策略，禁止页面加载或执行与自身来源不同的域的任何脚本。、</p>
-<h2 id="在express中使用"><a href="#在express中使用" class="headerlink" title="在express中使用"></a>在express中使用</h2><p>1.你只需要在express的命令行中安装cors</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install cors</span><br></pre></td></tr></table></figure>
-
-<p>2.接着在main.js中引用server.js中引用</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var cors &#x3D; require(&#39;cors&#39;);</span><br><span class="line">app.use(cors());</span><br></pre></td></tr></table></figure>
-
-<p>没错，这样就可以了！就是那么简单。</p>
-<p>任何域都可以访问到了</p>
-
+        <h2 id="什么是cors"><a href="#什么是cors" class="headerlink" title="什么是cors"></a>什么是cors</h2><p>CORS是一个W3C标准，全称是”跨域资源共享”（Cross-origin resource sharing）。它允许浏览器向跨源服务器，发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制。只要服务器实现了CORS接口，就可以跨源通信。CORS有两种请求，简单请求和非简单请求。</p>
+        
+          <a class="article-more-a" href="/2020/05/03/express%E4%BD%BF%E7%94%A8cors%E8%B7%A8%E5%9F%9F/#more">more >></a>
+        
       
        <!-- 添加版权声明 -->
     
@@ -222,74 +302,6 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2020/05/03/express%E4%BD%BF%E7%94%A8cors%E8%B7%A8%E5%9F%9F/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-个人博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/05/02/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">个人博客</a>
-    </h1>
-  
-
-        
-        <a href="/2020/05/02/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
-  	<time datetime="2020-05-02T02:13:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-02</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-       <!-- 添加版权声明 -->
-    
-
-  <div class="declare" hidden="hidden"></div>
-
-      <!-- 添加版权声明 -->
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/05/02/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">展开全文 >></a>
         </p>
       
 
@@ -501,19 +513,9 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+        
+          <a class="article-more-a" href="/2020/04/30/hello-world/#more">more >></a>
+        
       
        <!-- 添加版权声明 -->
     
@@ -673,11 +675,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Vue-cli</a>
+                <a href="javascript:void(0)" class="js-tag color2">Github</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Element-UI</a>
+                <a href="javascript:void(0)" class="js-tag color4">Git</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -686,6 +688,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">cors</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Vue-cli</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Element-UI</a>
               </li>
             
             <div class="clearfix"></div>
