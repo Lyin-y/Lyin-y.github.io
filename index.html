@@ -157,6 +157,115 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-uni-app搭建小程序" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/05/03/uni-app%E6%90%AD%E5%BB%BA%E5%B0%8F%E7%A8%8B%E5%BA%8F/">uni-app搭建小程序</a>
+    </h1>
+  
+
+        
+        <a href="/2020/05/03/uni-app%E6%90%AD%E5%BB%BA%E5%B0%8F%E7%A8%8B%E5%BA%8F/" class="archive-article-date">
+  	<time datetime="2020-05-03T14:16:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-03</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="通过vue-cli的命令行安装"><a href="#通过vue-cli的命令行安装" class="headerlink" title="通过vue-cli的命令行安装"></a>通过vue-cli的命令行安装</h3><p>全局安装vue-cli：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g @vue&#x2F;cli</span><br></pre></td></tr></table></figure>
+
+<p>创建uni-app(正式版):</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vue create -p dcloudio&#x2F;uni-preset-vue my-project</span><br></pre></td></tr></table></figure>
+
+<p>安装sass依赖：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install sass -loader node-sass</span><br></pre></td></tr></table></figure>
+
+<p>在小程序运行：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run dev:mp-weixin</span><br></pre></td></tr></table></figure>
+
+<p>在小程序中导入该项目进行预览</p>
+<p>导入路径：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">根目录下的\dist\dev\mp-weixin</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>安装uni-ui:</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install @dcloudio&#x2F;uni-ui</span><br></pre></td></tr></table></figure>
+
+<p><strong>使用uni-ui</strong></p>
+<p>在script中引用：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import &#123;uniBadge&#125; from &#39;@dcloudio&#x2F;uni-ui&#39;</span><br><span class="line">&#x2F;&#x2F;import uniBadge from &#39;@dcloudio&#x2F;uni-ui&#x2F;lib&#x2F;uni-badge&#x2F;uni-badge.vue&#39; &#x2F;&#x2F;也可使用此方式引入组件</span><br><span class="line">export default &#123;</span><br><span class="line">    components: &#123;uniBadge&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在 <code>template</code> 中使用组件：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;uni-badge text&#x3D;&quot;1&quot;&gt;&lt;&#x2F;uni-badge&gt;</span><br><span class="line">&lt;uni-badge text&#x3D;&quot;2&quot; type&#x3D;&quot;success&quot; @click&#x3D;&quot;bindClick&quot;&gt;&lt;&#x2F;uni-badge&gt;</span><br><span class="line">&lt;uni-badge text&#x3D;&quot;3&quot; type&#x3D;&quot;primary&quot; :inverted&#x3D;&quot;true&quot;&gt;&lt;&#x2F;uni-badge&gt;</span><br></pre></td></tr></table></figure>
+      
+       <!-- 添加版权声明 -->
+    
+
+  <div class="declare" hidden="hidden"></div>
+
+      <!-- 添加版权声明 -->
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">uni-app</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">npm</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/05/03/uni-app%E6%90%AD%E5%BB%BA%E5%B0%8F%E7%A8%8B%E5%BA%8F/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Github上传自己的项目" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -179,7 +288,6 @@
       
         <p>我自己电脑上已经装好Git,并且已经注册好Github</p>
 <h3 id="在Github创建一个仓库el-admin"><a href="#在Github创建一个仓库el-admin" class="headerlink" title="在Github创建一个仓库el-admin"></a>在Github创建一个仓库el-admin</h3><p><img src="https://img-blog.csdnimg.cn/20200503153820213.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDE1MTk3NA==,size_16,color_FFFFFF,t_70" alt="alt"></p>
-<p>创建完成之后，跳转到上面的页面，红框中的网址要记住，在后面上传代码的时候需要使用</p>
         
           <a class="article-more-a" href="/2020/05/03/Github%E4%B8%8A%E4%BC%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E9%A1%B9%E7%9B%AE/#more">more >></a>
         
@@ -331,74 +439,6 @@
 
 
   
-    <article id="post-简单的后台管理系统（一）" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/05/02/%E7%AE%80%E5%8D%95%E7%9A%84%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%EF%BC%88%E4%B8%80%EF%BC%89/">简单的后台管理系统（一）</a>
-    </h1>
-  
-
-        
-        <a href="/2020/05/02/%E7%AE%80%E5%8D%95%E7%9A%84%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%EF%BC%88%E4%B8%80%EF%BC%89/" class="archive-article-date">
-  	<time datetime="2020-05-02T02:04:01.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-02</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-       <!-- 添加版权声明 -->
-    
-
-  <div class="declare" hidden="hidden"></div>
-
-      <!-- 添加版权声明 -->
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/05/02/%E7%AE%80%E5%8D%95%E7%9A%84%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%EF%BC%88%E4%B8%80%EF%BC%89/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
     <article id="post-搭建一个简单的后台管理系统（一）" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -419,17 +459,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="创建vue-cli项目"><a href="#创建vue-cli项目" class="headerlink" title="创建vue-cli项目"></a>创建vue-cli项目</h1><p>1.创建一个文件夹<strong>Myadmin</strong><br>2.进入该文件夹的操作命令<br>3.依次输入下列命令<br>  <code>vue init  //初始化项目</code><br>  <code>npm install  //安装npm 模块代码的依赖</code><br> <code>cd Myadmin   //进入项目目录</code><br> <code>npm run serve  //运行项目</code></p>
-<h1 id="编写后台管理系统界面"><a href="#编写后台管理系统界面" class="headerlink" title="编写后台管理系统界面"></a>编写后台管理系统界面</h1><ol>
-<li><p>继续在上面命令行内输入(这里是完整安装)</p>
-<p> npm i element-ui -S  //安装element</p>
-</li>
-<li><p>在Myadmin文件里的 main.js 中写入以下内容：<br><code>import ElementUI from &#39;element-ui&#39;;</code><br><code>Vue.use(ElementUI);</code></p>
-</li>
-<li><p>在项目里使用element框架</p>
-</li>
-</ol>
-
+        <h1 id="创建vue-cli项目"><a href="#创建vue-cli项目" class="headerlink" title="创建vue-cli项目"></a>创建vue-cli项目</h1><p>1.创建一个文件夹<strong>Myadmin</strong><br>2.进入该文件夹的操作命令<br>3.依次输入下列命令</p>
+        
+          <a class="article-more-a" href="/2020/05/01/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%EF%BC%88%E4%B8%80%EF%BC%89/#more">more >></a>
+        
       
        <!-- 添加版权声明 -->
     
@@ -696,6 +729,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Element-UI</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">uni-app</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">npm</a>
               </li>
             
             <div class="clearfix"></div>
